@@ -1,0 +1,123 @@
+/* 
+    Document   : styles
+    Created on : Aug 16, 2012, 10:57:11 PM
+    Author     : Vishaan Tiwarie
+*/
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+html
+{
+    width:100%;
+}
+
+body
+{
+    height:100%;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+#footer
+{
+    width:100%;
+    text-align:center;
+    font-size:12px;
+    font-family:verdana;
+}
+
+#introDiv 
+{
+    font-family:twitterFont, verdana;
+    font-size:40px;
+    text-align:center;
+    text-transform:uppercase;
+    width:100%;
+    color:skyblue;
+    padding:10px 0;
+}
+
+#introDiv span
+{
+    font-size:35px;
+}
+
+#introDiv img
+{
+    width:50px;
+    height:50px;
+}
+
+th
+{
+    font-size:50px;
+    font-family:twitterFont;
+    font-style:italic;
+    text-transform:uppercase;
+    color:darkblue;
+}
+
+td span
+{
+    font-size:14px;
+    font-family:twitterFont;
+    background-color:white;
+    position:relative;
+    color:black;
+    float:right;
+}
+
+#twitterDiv 
+{
+    margin:0 auto;
+    width:50%;
+    
+}
+
+#twitterDiv table 
+{
+    width:100%;
+    margin:0 auto;
+    color:black;  
+}
+
+#twitterDiv table td
+{
+    background-color:skyblue;
+    border-radius:5px;
+}
+
+#formDiv
+{
+    width:400px;
+    margin:0 auto;
+    padding:10px 0;
+}
+
+.tweetForm table
+{
+    width:100%;
+    margin:0 auto;
+}
+
+.tweetForm table td
+{
+    width:50%;
+}
+
+.tweetForm table td label
+{
+    color:blue;
+    font-size:18px;
+    font-style:italic;
+}
+
+.tweetForm table input
+{
+    border:1px black solid;
+}

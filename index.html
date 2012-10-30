@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Twitter App</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="styles.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="js/twitterapp.js"></script>
+    </head>
+    <body>
+        <div id="introDiv">
+            <img src="twitterLogo.jpg"/><span>twitter</span>
+        </div>  
+
+        <div id="formDiv">
+            <form name="tweetForm" id="tweetForm" class="tweetForm" method="get">
+                <table>
+                    <tr><td align="right"><label for="username"/>Username:</td><td align="left"><input type="text" name="username" size="25" /></td></tr>
+                    <tr><td align="right"><label for="quantity"/>Number of Posts:</td><td align="left"> <input type="text" name="quantity" size="3" maxlength="3"/></td></tr>
+                    <tr><td></td><td align="left"><input type="submit" value="Find Tweets" /></td></tr>
+                </table>
+            </form>
+        </div>
+
+        <br/>
+
+        <div id="twitterDiv"></div>
+
+        <div id="footer"><center>Vishaan Tiwarie</center></div>
+    </body>
+</html>
+
